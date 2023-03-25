@@ -55,7 +55,7 @@ public class MTRIXADD {
         {
             for (int k=0; k<y;k++)
             {
-                c[l][k]= a[l][k]+b[l][k];
+                c[l][k]= a[l][k]*b[k][l];
             }
 
         }
